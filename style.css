@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    margin:5px;
+    padding: 2px;
+}
+    .wrapper>h1 ,.wrapper>p{
+        outline: 1px solid black;
+        margin: 10px 10px;
+        vertical-align: top;
+    }
+    .wrapper h1{
+        background: #b3b3b3;
+        padding: 10px;
+    }
+    .wrapper p{
+        padding: 25px 10px;
+        background: #cccccc;
+    }
+    .wrapper > .mediaNote{
+        background: #ffff9a;
+    }
+
+    @media only screen and (max-width:480px) {
+        .sm-0{
+            display: none;
+        }
+        .wrapper{
+            width: 98%;
+        }
+    }
+    @media only screen and (min-width:481px) and (max-width:1023px){
+        .med-0{
+            display: none;
+        }
+        .wrapper{
+            width: 98%;
+        }
+    }
+    @media only screen and (min-width:1024px) {
+        .lg-0{
+            display: none;
+        }
+        .wrapper{
+            width: 98%;
+        }
+    }
+.bold{
+    font-weight: bold;
+}
